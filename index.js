@@ -1,7 +1,8 @@
-function add(a, b) {
-  return a + b;
-}
+var add = require('./addFunction')
 
-a = 4
-b = 5
-console.log(add(a,b))
+x = add.testAdd()
+console.log(x)
+
+var lrg = require('./largestElement')
+y = lrg.testLargest()
+console.log(y)
